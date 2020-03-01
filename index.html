@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru" >
+  <head>
+    <meta charset="utf-8">
+    <title>TestFrontEnd</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+</style>
+  </head>
+  <body>
+    <div class="TextContent">
+      <p class="query"> Задать вопрос </p>
+    <form action="https://digital-spectr.com/ac/academy.php" method="post">
+      <div> <input class="Login" type="login" name="name" placeholder="Фамилия Имя Отчество*" required pattern="^[а-яА-ЯёЁ -]+$"/> </div>
+      <div> <input class="Number" type="tel" name="phone" placeholder="Телефон*" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" required /> </div>
+      <div> <input class="Email" type="email" name="email" placeholder="Email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"/>  </div>
+      <div> <button type="button" name="button"><span>ОТПРАВИТЬ ЗАПРОС</span></button> </div>
+    </div>
+    </form>
+  </body>
+</html>
